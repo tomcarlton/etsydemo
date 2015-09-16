@@ -12,7 +12,8 @@ gem "paperclip", "~> 4.3"
 gem 'jbuilder', '~> 2.0'
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
-gem 'devise'          
+gem 'devise'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'          
 
 group :production do
 	gem 'pg'
